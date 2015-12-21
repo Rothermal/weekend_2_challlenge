@@ -1,0 +1,142 @@
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+/*.index-point {*/
+    /*width: 25px;*/
+    /*height: 25px;*/
+    /*background-color: #dad5d2;*/
+    /*border: 1px solid black;*/
+    /*float: left;*/
+    /*display: inline-block;*/
+/*}*/
+
+/*.index-point-active {*/
+    /*background-color: #ee100d;*/
+/*}*/
+body{
+    background-color: lightgray;
+}
+#people-Container{
+    height: 200px;
+    width:100%;
+    background-color: lightgray;
+}
+button{
+    margin:auto;
+    border-radius: 5px;
+    background-color:thistle;
+
+}
+.name-btn-left{
+    width:18%;
+    position: fixed;
+    top:210px;
+    left: 15px;
+}
+.name-btn-right{
+    width:18%;
+    position: fixed;
+    top: 210px;
+    right: 15px;
+
+}
+.name{
+    color:tomato;
+    font-size: 35px;
+    text-align: center;
+
+}
+.location{
+    color:chocolate;
+    text-align: center;
+    font-size: 30px;
+}
+.animal {
+    color:cornflowerblue;
+    text-align: center;
+    font-size: 25px;
+
+}
+.images-theta{
+    border: solid;
+    background-color: #999999;
+    width: 100%;
+
+}
+#img-animal{
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+}
+#img-location{
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+}
+#img-people{
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+}
+
+.spirit-animal{
+    height: auto;
+    width: auto;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 5px 5px;
+    position: absolute;
+    left:5px;
+}
+.city{
+    height: auto;
+    width: auto;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 5px 5px;
+    position: absolute;
+    right:5px;
+}
+.lazer-img{
+    height: auto;
+    width: auto;
+    max-width: 400px;
+    max-height: 400px;
+    position: absolute;
+    left:40%;
+
+
+}
+#index-buttons{
+
+    width:35px;
+    height:15px;
+    display: inline;
+    position:relative;
+    left:30%;
+}
+/*.active {*/
+
+/*}*/
