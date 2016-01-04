@@ -69,7 +69,7 @@
       "animal":"Owl",
       "imgurl_animal":"images/animals/owl.jpg",
       "imgurl_location":"images/cities/plymouth.jpg",
-      "imgurl_people":"images/people/YUNOLAZER.jpg"
+      "imgurl_people":"images/people/amber.jpg"
     },{
       "name":"Liz",
       "location":"Bloomington",
@@ -126,14 +126,14 @@
       "animal":"Kittyfoofoo",
       "imgurl_animal":"images/animals/kittyFooFoo.jpg",
       "imgurl_location":"images/cities/Minneapolis.jpg",
-      "imgurl_people":"images/people/YUNOLAZER.jpg"
+      "imgurl_people":"images/people/natalie.jpg"
     },{
       "name":"Anthony Rohr",
       "location":"Minneapolis",
       "animal":"Otter",
       "imgurl_animal":"images/animals/otter.jpg",
       "imgurl_location":"images/cities/Minneapolis.jpg",
-      "imgurl_people":"images/people/anthony.jpg"
+      "imgurl_people":"images/people/anthony2.jpg"
     }, {
       "name": "Kristy Wessel",
       "location": "Burnsville",
